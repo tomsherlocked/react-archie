@@ -4,6 +4,8 @@ Just as disgusting as you thought it would be. Tracking _key_ puppy metrics so w
 
 Using react on the frontend and node-red on the backend as a quick and dirty way to interact with the DB
 
+![demo image](demo.gif)
+
 ### Colour pallete
 
 https://coolors.co/282c34-72a98f-3581b8-f5c396-eae8ff
