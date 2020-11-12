@@ -6,6 +6,15 @@ Using react on the frontend and node-red on the backend as a quick and dirty way
 
 ![demo image](demo.gif)
 
+## To run
+
+- clone repo
+- install packages (`npm i`)
+- add the env as per the docs below
+- run dev server with `npm run dev`
+- build with `npm run build`
+- run with backend express server `npm run bundle-start`
+
 ### Colour pallete
 
 https://coolors.co/282c34-72a98f-3581b8-f5c396-eae8ff
