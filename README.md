@@ -1,4 +1,8 @@
-# React/Archie stuff
+# Tinkle Time!
+
+Just as disgusting as you thought it would be. Tracking _key_ puppy metrics so we can find a pattern for his _cough_ nature breaks.
+
+Using react on the frontend and node-red on the backend as a quick and dirty way to interact with the DB
 
 ### Colour pallete
 

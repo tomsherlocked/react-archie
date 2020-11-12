@@ -5,6 +5,7 @@ const express = require("express"),
   launcher = require("rocket-server-log"),
   bodyParser = require("body-parser"),
   fetch = require("node-fetch"),
+  auth = require("express-basic-auth"),
   PORT = process.env.PORT || 8080,
   baseAPIRoute = process.env.BASE_ROUTE;
 (toiletRoute = process.env.TOILET), (weightRoute = process.env.WEIGHT);
@@ -26,8 +27,6 @@ app.post("/toilet", async (req, res) => {
   }
 });
 app.post("/weight", async (req, res) => {
-  console.log("weight");
-  console.log(req.body);
   if (req.body.weight) {
     const response = await fetch(`${baseAPIRoute}/${weightRoute}`, {
       method: "POST",
